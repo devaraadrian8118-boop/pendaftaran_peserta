@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pendaftaran Peserta</title>
+    <style>
+        body { background-color: #f4f8ff; } /* Warna latar halaman */
+        h1 { text-align: center; color: #1a56b0; } /* Judul rata tengah berwarna biru */
+        table { border-collapse: collapse; width: 100%; } /* Border collapse tabel */
+        th { background-color: #1a56b0; color: white; padding: 8px; } /* Warna latar th */
+        td { border: 1px solid #ccd; padding: 8px; } /* Padding dan garis tepi pada td */
+    </style>
+</head>
+<body>
+
+    <h1>Pendaftaran Peserta</h1>
+
+    <form>
+        Nama: <input type="text" name="nama"><br><br>
+        Jenis Kelamin: 
+        <input type="radio" name="jk" value="L"> L 
+        <input type="radio" name="jk" value="P"> P<br><br>
+        Jurusan: 
+        <select name="jurusan">
+            <option>Informatika</option>
+            <option>Sistem Informasi</option>
+        </select><br><br>
+        <button type="submit" style="background-color: #1a56b0; color: white; border: none; padding: 6px 12px;">Kirim</button>
+    </form>
+
+    <br>
+
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Jurusan</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Budi Santoso</td>
+            <td>Informatika</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sari Wulandari</td>
+            <td>Sistem Informasi</td>
+        </tr>
+    </table>
+
+</body>
+</html>
